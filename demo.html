@@ -1,11 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" href="main.php">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script>
+        standpucure = "hampter.jpeg";
+    </script>
 </head>
 <body>
-    <h1>Hello World</h1>
-</body>
+    <h1>We all know what is this </h1>
+    <p class="special-text">This is a Goal</p>
+    <img id="Katze" src="Katze.jpeg" style="display: none;">
+    <img id="Truck" src="Truck.jpeg" style="display: none;">
+    <list>
+        <p>You killed:</p>
+        <li onchange="Killcounter(1)"></li>
+        <p>small sweet cats :(</p>
+    </list>
+    <button onclick="start_show('Katze', 'Truck')">Start show</button>
+    <button onclick ="hideallImage('Katze','Truck')">Hide all</button>
+    <button onclick="end_show('Katze')">End show</button>
+
+        
+
+<script src="show.js"></script>
+
+</body> 
 </html>

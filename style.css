@@ -1,0 +1,21 @@
+body {
+  background-color: lightblue;
+}
+h1 {
+  color: white;
+  text-align: left;
+}
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+cat{
+  position: absolute;
+  left: 100px;
+  right: 400px;
+}
+.special-text {
+  font-style: italic;
+  color: #1f76c7;
+  size: 29px;
+}
